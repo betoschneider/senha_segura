@@ -16,6 +16,6 @@ services:
     volumes:
       - ./front:/var/www/html
     ports:
-      - '8502:8502'
+      - '8502:80'
     depends_on:
       - api
